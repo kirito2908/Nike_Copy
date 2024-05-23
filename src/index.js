@@ -1,9 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { Header } from './Components/Header';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { Header } from "./Components/Header";
+import BodyPart from "./Components/BodyPart";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  
-  <Header/>
+  <>
+    <Header />
+    <BodyPart />
+  </>
 );
