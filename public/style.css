@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    scrollbar-width: none;
+    position: relative;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 9px 5px;
+    background-color: #192331;
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+.nav .options{
+    width: 40%;
+}
+
+.nav .options ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.nav .theButton .signIn{
+    background-color: #3270f7;
+    padding: 12px 20px;
+    border-radius: 15%;
+    color: white;
+    font-size: 16px;
+}
