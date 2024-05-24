@@ -52,7 +52,26 @@ const BodyPart = () => {
                 </div>
             </div>
           </div>
-          <div className="rightPart"></div>
+          <div className="rightPart">
+            <img src="/assets/big-shoe1.png" alt="Big Shoe" className="showCase" />
+            <div className="subShowCase">
+              <div className="subShow1">
+                <div className="show1">
+                  <img src="/assets/thumbnail-shoe1.svg" alt="small Shoe1" className="firstImage" />
+                </div>
+              </div>
+              <div className="subShow2">
+                <div className="show2">
+                  <img src="/assets/thumbnail-shoe2.svg" alt="small Shoe2" className="secondImage" />
+                </div>
+              </div>
+              <div className="subShow3">
+                <div className="show3">
+                  <img src="/assets/thumbnail-shoe3.svg" alt="small Shoe3" className="thirdImage" />
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
