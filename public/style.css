@@ -12,6 +12,7 @@ body{
 }
 
 .nav{
+    width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -19,6 +20,9 @@ body{
     color: white;
     font-family: Helvetica, sans-serif;
     padding: 10px 0;
+    position: fixed;
+    z-index: 50;
+    opacity: 0.9;
 }
 
 .nav .options ul{
@@ -29,6 +33,13 @@ body{
     font-size: 16px;
     gap: 30px;
     font-weight: 500;
+    color: rgb(191, 191, 191);  
+}
+
+.nav .options ul li:hover{
+    cursor: pointer;
+    color: rgb(140, 140, 140);
+    transition: 500ms;
 }
 
 .nav .theButton .signIn{
@@ -40,9 +51,12 @@ body{
 }
 
 .container{
-    padding-right: 4rem;
-    padding-left: 4rem;
+    position: absolute;
+    width: 100%;
+    padding-right: 10rem;
+    padding-left: 5rem;
     padding-bottom: 6rem;
+    background-color: black;
 }
 
 .subContainer{
@@ -52,9 +66,6 @@ body{
     flex-direction: row;
     justify-content: center;
     gap: 2.5rem;
-    min-height: 100vh;
-    max-width: 1440px;
-    /* margin: 0px auto; */
 }
 
 .leftPart{
@@ -80,11 +91,12 @@ body{
     line-height: 106px;
     margin-top: 2.5rem;
     font-family: Palanquin, sans-serif;
+    color: rgb(191, 191, 191);  
 }
 
 .span1{
-    /* background-color: rgb(28, 28, 33); */
-    background-color: rgb(191, 191, 191);
+    background-color: rgb(28, 28, 33);
+    color: rgb(191, 191, 191);  
     white-space: nowrap;
     padding-right: 2rem;
     z-index: 10;
@@ -148,6 +160,7 @@ body{
     font-size: 48px;
     line-height: 58px;
     font-family: Palanquin, sans-serif;
+    color: rgb(191, 191, 191);  
 }
 
 .brand, .shop, .customer{
@@ -157,6 +170,7 @@ body{
 }
 
 .rightPart{
+    width: 100%;
     position: relative;
     min-height: 100vh;
     background-position: center;
@@ -169,17 +183,36 @@ body{
 }
 
 .showCase{
-    width: 100%;
     position: relative;
     object-fit: contain;
     z-index: 10;
 }
 
 .subShowCase{
-    position: absolute;
-    display: flex;
-    left: 10%;
-    bottom: -5%;
+    width: 90%;
     gap: 1.5rem;
+    left: 10%;
+    display: flex;
+    position: absolute;
+    bottom: -5%;
+    justify-content: space-around;
 }
 
+.subShow{
+    border-color: rgb(180, 58, 45);
+    border-width: 2px;
+    border-radius: .75rem;
+    cursor: pointer;
+}
+
+.show{
+    width: 10rem;
+    height: 10rem;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/assets/thumbnail-background.svg);
+    border-radius: .75rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
