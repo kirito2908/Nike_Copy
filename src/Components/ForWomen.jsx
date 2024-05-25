@@ -10,7 +10,7 @@ const ForWomen = () => {
           <div className="mainContainer">
             <div className="textPart">
               <h2>
-                Our <span>Popular</span> Products
+                Our <span>Woman's</span> Products
               </h2>
               <p>
                 Experience top-notch quality and style with our sought-after
