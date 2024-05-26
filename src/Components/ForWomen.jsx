@@ -1,6 +1,7 @@
 import React from "react";
 import SingleCard from "./SingleCard";
 import { Header } from "./Header";
+import Footer from "./Footer";
 
 const ForWomen = () => {
   return (
@@ -25,6 +26,7 @@ const ForWomen = () => {
             </div>
           </div>
         </div>
+        <Footer/>
     </div>
   );
 };

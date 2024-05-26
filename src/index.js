@@ -8,6 +8,7 @@ import ForMen from "./Components/ForMen";
 import ForWomen from "./Components/ForWomen";
 import ForKids from "./Components/ForKids";
 import { ErrorHandler } from "./Components/ErrorHandler";
+import Products from "./Components/Products";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -21,6 +22,7 @@ root.render(
         <Route path="/catagory/men" element={<ForMen/>}/>
         <Route path="/catagory/women" element={<ForWomen/>}/>
         <Route path="/catagory/kids" element={<ForKids/>}/>
+        <Route path="/catagory" element={<Products/>} />
       </Routes>
     </BrowserRouter>
   </>

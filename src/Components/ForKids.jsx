@@ -1,10 +1,11 @@
 import React from "react";
 import SingleCard from "./SingleCard";
 import { Header } from "./Header";
+import Footer from "./Footer";
 
 const ForKids = () => {
   return (
-    <div>
+    <>
       <Header/>
         <div className="productContainer">
           <div className="mainContainer">
@@ -25,7 +26,8 @@ const ForKids = () => {
             </div>
           </div>
         </div>
-    </div>
+        <Footer/>
+    </>
   );
 };
 

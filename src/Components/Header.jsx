@@ -23,6 +23,7 @@ export const Header = () => {
     <>
       <div className="nav">
         <div className="logo">
+          <Link to="/"> 
           <svg
             width="129"
             height="29"
@@ -41,6 +42,7 @@ export const Header = () => {
               fill="#FF6452"
             />
           </svg>
+          </Link>
         </div>
         <div className="options">
           <ul>

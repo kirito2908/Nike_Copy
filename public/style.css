@@ -47,6 +47,7 @@ body{
     border-radius: 6px;
     color: white;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .container{
@@ -80,7 +81,7 @@ body{
     font-size: 20px;
     line-height: 24.38px;
     font-family: Montserrat, sans-serif;
-    color: #E6A199;
+    color: rgb(254, 50, 27);
 }
 
 .leftPart h1{
@@ -89,27 +90,29 @@ body{
     line-height: 106px;
     margin-top: 2.5rem;
     font-family: Palanquin, sans-serif;
-    color: rgb(191, 191, 191);  
+    color: black;  
 }
 
 .span1{
-    background-color: rgb(28, 28, 33);
-    color: rgb(191, 191, 191);  
+    background-color: white;
+    color: black;  
     white-space: nowrap;
     padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
     z-index: 10;
     position: relative;
 }
 
 .span2{
-    color: rgb(230, 161, 153);
+    color: rgb(254, 50, 27);
     display: inline-block;
     margin-top: .75rem;
 }
 
 .content{
     max-width: 25rem;
-    color: rgb(191, 191, 191);
+    color: black;
     line-height: 2rem;
     font-size: 18px;
     font-family: Montserrat, sans-serif;
@@ -123,7 +126,7 @@ body{
     font-size: 18px;
     font-family: Montserrat, sans-serif;
     padding: 1rem 1.75rem;
-    background-color: rgb(180, 58, 45);
+    background-color: rgb(254, 50, 27);
     border-width: 1px;
     border-radius: 9999px;
     gap: .5rem;
@@ -158,13 +161,13 @@ body{
     font-size: 48px;
     line-height: 58px;
     font-family: Palanquin, sans-serif;
-    color: rgb(191, 191, 191);  
+    color: black;  
 }
 
 .brand, .shop, .customer{
     line-height: 1.75rem;
     font-family: Montserrat, sans-serif;
-    color: rgb(191, 191, 191);   
+    color: black;   
 }
 
 .rightPart{
@@ -197,7 +200,7 @@ body{
 }
 
 .subShow{
-    border-color: rgb(180, 58, 45);
+    border-color: rgb(254, 50, 27);
     border-width: 2px;
     border-radius: .75rem;
     cursor: pointer;
@@ -218,8 +221,7 @@ body{
 .productContainer{
     width: 100%;
     padding: 6rem 4rem;
-    position: absolute;
-    color: rgb(191, 191, 191);
+    color: black;
 }
 
 .textPart{
@@ -237,7 +239,7 @@ body{
 }
 
 .textPart span{
-    color: rgb(230, 161, 153);
+    color: rgb(254, 50, 27);
 }
 
 .textPart p{
@@ -276,5 +278,79 @@ body{
 }
 
 .details p{
-    color: rgb(230, 161, 153);
+    color: rgb(254, 50, 27);
+}
+
+.footerContainer{
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color: black;
+    color: white;
+    font-family: Montserrat, sans-serif;
+}
+
+footer{
+    padding: 0rem 1rem;
+}
+
+.upperPart{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftSide{
+    width: 31%;
+}
+
+.footerText{
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    line-height: 1.75rem;
+    padding-top: 1rem;
+}
+
+.socialMedia{
+    display: flex;
+    align-items: flex-start;
+    padding-top: 3rem;
+    gap: 1.5rem;
+}
+
+.socialMedia img{
+    background-color: #fff;
+    padding: 0.5rem 0.5rem;
+    border-radius: 50%;
+}
+
+.rightSide{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: space-between;
+    line-height: 1.5;
+    padding-left: 8rem;
+}
+
+.rightSide li{
+    list-style-type: none;
+    font-size: 16px;
+    margin-top: 0.7rem;
+}
+
+.rightSide h4{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.belowPart{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 6rem;
 }
