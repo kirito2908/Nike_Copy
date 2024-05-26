@@ -120,7 +120,7 @@ body{
     margin-bottom: 3.5rem;
 }
 
-.shopNow{
+.shopNow, .firstButton{
     color: rgb(255, 255, 255);
     line-height: 1;
     font-size: 18px;
@@ -277,10 +277,6 @@ body{
     margin-top: .5rem;
 }
 
-.details p{
-    color: rgb(254, 50, 27);
-}
-
 .footerContainer{
     width: 100%;
     padding-top: 4rem;
@@ -294,6 +290,7 @@ body{
 
 footer{
     padding: 0rem 1rem;
+    margin-top: 4rem;
 }
 
 .upperPart{
@@ -353,4 +350,190 @@ footer{
     width: 100%;
     justify-content: space-between;
     margin-top: 6rem;
+}
+
+.aboutContainer{
+    padding: 6rem 4rem;
+}
+
+.about{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.leftText{
+    width: 50%;
+    padding: 6rem 6rem;
+}
+
+.about h2{
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    font-family: Palanquin, sans-serif;
+}
+
+.disc1, .disc2{
+    width: 90%;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    line-height: 1.75rem;
+    margin-top: 1rem;
+}
+
+.leftText span, .rightAbout span, .details p, .contact span{
+    color: rgb(254, 50, 27);
+}
+
+.viewDetails{
+    margin-top: 3rem;
+    line-height: 1;
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    padding: 1rem 2rem;
+    background-color: rgb(254, 50, 27);
+    border-radius: 9999px;
+    color: #fff;
+    border-style: none;
+}
+
+.allBenifits{
+    padding: 0 6rem;
+}
+
+.benifits{
+    display: flex;
+    gap: 2.5rem;
+    justify-content: space-evenly;
+}
+
+.firstService, .secondService, .thirdService{
+    width: 30%;
+    padding: 4rem 2rem;
+    box-sizing: border-box;
+}
+
+.benifits img{
+    background-color: rgb(254, 50, 27);
+    border-radius: 9999px;
+    padding: 0.75rem 0.75rem;
+}
+
+.benifits h3{
+    line-height: 1.5;
+    font-weight: 700;
+    font-size: 28px;
+    font-family: Palanquin, sans-serif;
+    margin-top: 1.25rem;
+}
+
+.benifits p{
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    margin-top: 0.75rem;
+}
+
+.about3{
+    padding: 6rem 4rem;
+}
+
+.nextAbout{
+    display: flex;
+    align-items: center;
+}
+
+.rightAbout h2{
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    font-family: Palanquin, sans-serif;
+}
+
+.rightAbout p{
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    line-height: 1.75rem;
+    margin-top: 1rem;
+}
+
+.buttons{
+    display: flex;
+    margin-top: 2.5rem;
+    gap: 1rem;
+}
+
+.secondButton{
+    line-height: 1;
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    padding: 1rem 1.75rem;
+    border-width: 1px;
+    border-radius: 9999px;
+    gap: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: none;
+    border-color: #616161;
+}
+
+.contactContainer{
+    width: 100%;
+    padding: 8.3rem 5rem;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact h3{
+    width: 32%;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: Palanquin, sans-serif;
+    line-height: 68px;
+}
+
+.enterEmail{
+    width: 40%;
+    border: 1px solid rgb(109 109 109);
+    padding: 1rem;
+    border-radius: 9999px;
+    gap: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.enterEmail input{
+    border-width: 1px;
+    padding-left: 1.25rem;
+    font-size: 16px;
+    line-height: 1.5;
+    color: rgb(109 109 109);
+    border-style: none;
+}
+
+.enterEmail button{
+    line-height: 1;
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    padding: 1rem 1.75rem;
+    border-width: 1px;
+    border-radius: 9999px;
+    gap: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: none;
+    border-color: #616161;
+    background-color: rgb(254, 50, 27);
+    color: white;
 }

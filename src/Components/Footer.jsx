@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="upperPart">
             <div className="leftSide">
               <Link to="/">
-                <img src="/assets/header-logo.svg" alt="Nike" />
+                <img src="/assets/footer-logo.svg" alt="Nike" />
               </Link>
               <p className="footerText">
                 Get shoes ready for the new term at your nearest Nike store.
