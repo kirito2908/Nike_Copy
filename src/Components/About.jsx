@@ -1,9 +1,9 @@
 import React from 'react'
 import { Header } from './Header'
 import Footer from "./Footer";
-import AboutPart1 from './AboutPart1';
-import AboutPart2 from './AboutPart2';
-import AboutPart3 from './AboutPart3';
+import AboutPart1 from './AboutPart/AboutPart1.jsx';
+import AboutPart2 from './AboutPart/AboutPart2.jsx';
+import AboutPart3 from './AboutPart/AboutPart3.jsx';
 
 const About = () => {
   return (

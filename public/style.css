@@ -61,11 +61,11 @@ a:hover{
 }
 
 .container{
-    position: relative;
     width: 100%;
     padding-right: 10rem;
     padding-left: 5rem;
     padding-bottom: 6rem;
+    padding-top: 3rem;
 }
 
 .subContainer{
@@ -84,7 +84,7 @@ a:hover{
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    position: relative;
+    /* position: relative; */
 }
 
 .collection{
