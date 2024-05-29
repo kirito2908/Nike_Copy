@@ -7,10 +7,10 @@ const SingleCard = (dets) => {
       <img src={dets.image} alt="Shoe4"/>
       <div className="details">
         <div className="rating">
-          <Rate allowHalf defaultValue={4.5} />
-          <p>(4.5)</p>
+          {dets.rate}
+          <p>{dets.rating}</p>
         </div>
-        <h3>Nike Air Jordan-{dets.version}</h3>
+        <h3>{dets.version}</h3>
         <p className="price">{dets.price}</p>
       </div>
     </div>

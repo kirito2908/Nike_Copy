@@ -84,7 +84,6 @@ a:hover{
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    /* position: relative; */
 }
 
 .collection{
@@ -243,9 +242,17 @@ a:hover{
 
 .textPart h2{
     font-weight: 700;
+    font-size: 44px;
+    line-height: 58px;
+    font-family: Palanquin, sans-serif;
+}
+
+.allProducts h1{
+    font-weight: 700;
     font-size: 48px;
     line-height: 58px;
     font-family: Palanquin, sans-serif;
+    margin-bottom: 2rem;
 }
 
 .textPart span{
@@ -262,7 +269,7 @@ a:hover{
     width: 100%;
     display: flex;
     justify-content: space-around;
-    margin-top: 4rem;
+    margin: 4rem 0;
 }
 
 .details{
@@ -375,8 +382,8 @@ footer{
 }
 
 .leftText{
-    width: 50%;
-    padding: 6rem 6rem;
+    width: 60%;
+    padding: 4rem 4rem;
 }
 
 .about h2{
@@ -394,7 +401,7 @@ footer{
     margin-top: 1rem;
 }
 
-.leftText span, .rightAbout span, .details p, .contact span{
+.leftText span, .rightAbout span, .details p, .contact span, .allProducts span{
     color: rgb(254, 50, 27);
 }
 
@@ -546,4 +553,8 @@ footer{
     border-color: #616161;
     background-color: rgb(254, 50, 27);
     color: white;
+}
+
+.owl-theme{
+    display: flex;
 }
