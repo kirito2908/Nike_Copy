@@ -56,7 +56,7 @@ const ForWomen = () => {
               <SingleCard image="/assets/white-women-shoes.jpeg"/>
               </div>
               <div class='item'>
-              <SingleCard image="/assets/blackcpink.jpeg"/>
+              <SingleCard image="/assets/blackpink.jpeg"/>
               </div>
             </OwlCarousel>
           </div>
