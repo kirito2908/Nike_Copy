@@ -15,6 +15,11 @@ const ForWomen = () => {
       autoplay: true,
       dots: false,
       stagePadding: 10,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true,
+      animateIn: true,
+      animateOut: true,
+      autoplaySpeed: 1000,
       responsive : {
         600: {
           items: 2
@@ -42,16 +47,16 @@ const ForWomen = () => {
             <div className="cardPart">
             <OwlCarousel className='owl-theme' {...options}>
               <div class='item'>
-              <SingleCard image="/assets/shoe4.svg"/>
+              <SingleCard image="/assets/black-women-shoes.jpeg"/>
               </div>
               <div class='item'>
-              <SingleCard image="/assets/shoe5.svg"/>
+              <SingleCard image="/assets/pink-women-shoes.jpeg"/>
               </div>
               <div class='item'>
-              <SingleCard image="/assets/shoe6.svg"/>
+              <SingleCard image="/assets/white-women-shoes.jpeg"/>
               </div>
               <div class='item'>
-              <SingleCard image="/assets/shoe7.svg"/>
+              <SingleCard image="/assets/blackcpink.jpeg"/>
               </div>
             </OwlCarousel>
           </div>

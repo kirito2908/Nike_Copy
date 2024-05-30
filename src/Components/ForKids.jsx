@@ -15,6 +15,11 @@ const ForKids = () => {
       autoplay: true,
       dots: false,
       stagePadding: 10,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true,
+      animateIn: true,
+      animateOut: true,
+      autoplaySpeed: 1000,
       responsive : {
         600: {
           items: 2
@@ -41,17 +46,17 @@ const ForKids = () => {
             </div>
             <div className="cardPart">
             <OwlCarousel className='owl-theme' {...options}>
-              <div class='item'>
-              <SingleCard image="/assets/shoe4.svg"/>
+              <div className='item'>
+              <SingleCard image="/assets/dunk-low-big-kids.png"/>
               </div>
-              <div class='item'>
-              <SingleCard image="/assets/shoe5.svg"/>
+              <div className='item'>
+              <SingleCard image="/assets/jordan-1-retro-high.png"/>
               </div>
-              <div class='item'>
-              <SingleCard image="/assets/shoe6.svg"/>
+              <div className='item'>
+              <SingleCard image="/assets/jordan-12.png"/>
               </div>
-              <div class='item'>
-              <SingleCard image="/assets/shoe7.svg"/>
+              <div className='item'>
+              <SingleCard image="/assets/air-jordan-12.png"/>
               </div>
             </OwlCarousel>
           </div>

@@ -14,6 +14,11 @@ const ForMen = () => {
       autoplay: true,
       dots: false,
       stagePadding: 10,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true,
+      animateIn: true,
+      animateOut: true,
+      autoplaySpeed: 1000,
       responsive : {
         600: {
           items: 2

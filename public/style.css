@@ -279,6 +279,20 @@ a:hover{
     line-height: 1.5;
 }
 
+.item img{
+    width: 651.5px;
+    height: 651.5px;
+}
+
+.item img:hover{
+    cursor: pointer;
+}
+
+.allProducts img{
+    width: 282px;
+    height: 282px;
+}
+
 .rating{
     display: flex;
     width: 100%;

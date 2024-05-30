@@ -44,16 +44,16 @@ const Products = () => {
             </p>
           </div>
           <div className="cardPart">
-            <SingleCard image="/assets/shoe4.svg" version="Nike Air Jordan-01" price="$200.20" rate={
+            <SingleCard image="/assets/black-women-shoes.jpeg" version="Nike Air Jordan-01" price="$200.20" rate={
               <RatingStar />
             } rating="(4.5)"/>
-            <SingleCard image="/assets/shoe5.svg" version="Nike Air Jordan-10" price="$210.20" rate={
+            <SingleCard image="/assets/pink-women-shoes.jpeg" version="Nike Air Jordan-10" price="$210.20" rate={
               <RatingStar />
             } rating="(4.5)"/>
-            <SingleCard image="/assets/shoe6.svg" version="Nike Air Jordan-100" price="$220.20" rate={
+            <SingleCard image="/assets/white-women-shoes.jpeg" version="Nike Air Jordan-100" price="$220.20" rate={
               <RatingStar />
             } rating="(4.5)"/>
-            <SingleCard image="/assets/shoe7.svg" version="Nike Air Jordan-001" price="$230.20" rate={
+            <SingleCard image="/assets/blackpink.jpeg" version="Nike Air Jordan-001" price="$230.20" rate={
               <RatingStar />
             } rating="(4.5)"/>
           </div>
@@ -69,16 +69,16 @@ const Products = () => {
             </p>
           </div>
           <div className="cardPart">
-            <SingleCard image="/assets/shoe4.svg" version="Nike Air Jordan-01" price="$200.20" rate={
+            <SingleCard image="/assets/dunk-low-big-kids.png" version="Nike Dunk Low Big Kids" price="$200.20" rate={
               <RatingStar />
             } rating="(4.5)"/>
-            <SingleCard image="/assets/shoe5.svg" version="Nike Air Jordan-10" price="$210.20" rate={
+            <SingleCard image="/assets/jordan-1-retro-high.png" version="Nike Jordan-1 Retro High" price="$210.20" rate={
               <RatingStar />
             } rating="(4.5)"/>
-            <SingleCard image="/assets/shoe6.svg" version="Nike Air Jordan-100" price="$220.20" rate={
+            <SingleCard image="/assets/jordan-12.png" version="Nike Jordan-12" price="$220.20" rate={
               <RatingStar />
             } rating="(4.5)"/>
-            <SingleCard image="/assets/shoe7.svg" version="Nike Air Jordan-001" price="$230.20" rate={
+            <SingleCard image="/assets/air-jordan-12.png" version="Nike Air Jordan-12" price="$230.20" rate={
               <RatingStar />
             } rating="(4.5)"/>
           </div>
