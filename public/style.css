@@ -280,8 +280,9 @@ a:hover{
 }
 
 .item img{
-    width: 651.5px;
-    height: 651.5px;
+    object-fit: contain;
+    padding: 10px 50px;
+    border-radius: 15%;
 }
 
 .item img:hover{
@@ -569,6 +570,6 @@ footer{
     color: white;
 }
 
-.owl-theme{
-    display: flex;
+.owl-theme .item img{
+    /* border-radius: 10%;     */
 }
